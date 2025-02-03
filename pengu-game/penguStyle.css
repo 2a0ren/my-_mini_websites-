@@ -1,4 +1,4 @@
-/* Spinning text with rainbow color */
+/* rainboww!!! */
 .spinning-text {
     position: absolute;
     top: 89%;
@@ -10,18 +10,18 @@
 
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     
-    /* Applying the rainbow color effect */
+    /* ranbow go brr */
     background: linear-gradient(45deg, 
         red, orange, yellow, green, cyan, blue, violet, red);
     background-size: 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
-    /* Animation for spinning */
+    /* spin */
     animation: spin 4s linear infinite, rainbow 6s linear infinite;
 }
 
-/* Spinning text with rainbow color */
+/* more rainbow :333 */
 .spinning-text2 {
     position: absolute;
     top: 15%;
@@ -33,20 +33,20 @@
 
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     
-    /* Applying the rainbow color effect */
+    /* MORE RAINBOW */
     background: linear-gradient(64deg, 
         red, orange, yellow, green, cyan, blue, violet, red);
     background-size: 300%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     
-    /* Animation for spinning */
+    /* more spin */
     animation: spin 4s linear infinite, rainbow 6s linear infinite;
 
     transform: translate(-50%, -50%) rotate(57deg);
 }
 
-/* Corrected spin animation */
+/* SPIN ANIM */
 @keyframes spin {
     from {
         transform: translate(-50%, -50%) rotate(0deg);
@@ -56,7 +56,7 @@
     }
 }
 
-/* Animation to cycle through the rainbow colors */
+/* RAINBOY, CICLE */
 @keyframes rainbow {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
