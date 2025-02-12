@@ -77,8 +77,8 @@
 .pengu
 {
     position: fixed;
-    top: 20px; 
-    left: 50%; 
+    top: 85px; 
+    left: 49%; 
     transform: translateX(-50%); 
 }
 
